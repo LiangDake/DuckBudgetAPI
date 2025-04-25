@@ -1,0 +1,15 @@
+# 忽略虚拟环境
+venv/
+
+# 忽略环境变量配置
+.env
+
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略操作系统文件
+.DS_Store
+Thumbs.db
