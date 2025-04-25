@@ -53,7 +53,8 @@ async def search_local_pic(file: UploadFile = File(...)):
 
         return {
             "title": result.title,
-            "price": result.reserve_price
+            "price": result.reserve_price,
+            "hello": result.title
         }
 
     except Exception as e:
